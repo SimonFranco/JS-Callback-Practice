@@ -15,7 +15,7 @@ function move(element) {
         element.style.bottom = y + 'px'
         
         function moveCharacter(){ 
-            if(direction === 'west', x < ){
+            if(direction === 'west'){
                 x-=1
             }
             if(direction === 'north'){
@@ -29,6 +29,7 @@ function move(element) {
             }
             element.style.left = x + 'px'
             element.style.bottom = y + 'px'
+            element.style.zIndex = 1
         }
         
         setInterval(moveCharacter, 1)

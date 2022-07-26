@@ -19,7 +19,7 @@ function handleDirectionChange(direction){
     }
 }
 
-move(newImage('assets/tree.png')).withArrowKeys(100, 250, handleDirectionChange)
+move(character).withArrowKeys(100, 250, handleDirectionChange)
 
 
 
